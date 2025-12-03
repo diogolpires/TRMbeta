@@ -8,7 +8,7 @@ This package offers tools to explore evolutionary dynamics under the Territorial
 ### Installation
 
 Run the command:
-`pip install git+https://github.com/diogolpires/TRMbeta.git`
+`python3 -m pip install --upgrade git+https://github.com/diogolpires/TRMbeta.git`
 
 
 ### Usage
