@@ -1,10 +1,10 @@
 [build-system]
-requires = ["setuptools"]
+requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "TRMbeta"
-version = "0.1"
+version = "0.1.0"
 dependencies = ["numpy",
 "scipy",
 "twine"]
@@ -13,3 +13,6 @@ authors = [
   {name = "Diogo L Pires", email = "diogo.l.pires@gmail.com"},
 ]
 readme = "README.md"
+
+[tool.setuptools.packages.find]
+where = ["src"]
